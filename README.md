@@ -4,7 +4,7 @@ HOW TO RUN :
 
 Three ways to run it -
 
-1. run the following command on terminal - go run main.go
+1. run the following command on terminal in the project directory - go run main.go
    it will start the server
 
 2. Since the project has a docker container. run the following commands in project directory in case you have docker installed.
