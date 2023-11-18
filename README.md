@@ -20,16 +20,7 @@ HOW TO HIT THE API -
    STEP 1 - Add new gRPC request
    Step 2 - Add new API
    STEP 3 - use the .proto file at "business/user/grpc/proto/user.proto"
-   STEP 4 - Select a method from "GetUser" or "GetUsersByIDs"
-   For "GetUser" , set the message as -
-   {
-   "ID": 3
-   }
-   For "GetUsersByIDs" , set the message as -
-   {
-   "IDs": [1,2,3,4]
-   }
-   STEP 5 - Set URL as localhost:8080
+   STEP 5 - Set URL as localhost:8080 along with the API
    STEP 6 - Hit the INVOKE
 
 OR  
@@ -44,7 +35,4 @@ NOTE :
 4. Dockerized the whole application.
 
 ABOUT PROJECT -
-A grpc service with the following capabilities-
-● Mock the database by maintaining a list of user details in a variable.
-● An endpoint to fetch user details based on user id.
-● An endpoint to fetch a list of user details based on a list of ids
+A grpc service with two endpoints for fetching individual and list of details respectively.
